@@ -4,18 +4,18 @@ This repository documents my self-paced **8-week Cloud Engineering / DevOps lear
 
 ## About This Repo
 
-- **Week 1** focuses on Linux fundamentals and networking basics.
+- **Week 1** covered Linux fundamentals and networking basics.
 - Each week gets its own folder with notes and any exercises completed that week.
 - This repo is a work in progress — content is added as topics are actually completed, not in advance.
 
 ## Current Status
 
-**Week 1, Day 5 of 8 weeks — in progress.**
+**Week 1 of 8 — ✅ Completed.** Moving into Week 2 (Python, Bash & Git) next.
 
-Completed so far:
-- Linux command fundamentals (navigation, files, permissions, text processing, processes, services, package management, disk/system info)
-- Basic networking commands and troubleshooting
-- `linux-commands.md` — personal Linux + networking cheat sheet (this week's first commit)
+Completed:
+- Linux command fundamentals (navigation, files, permissions, text processing, processes, services, package management, disk/system info) — `linux-commands.md`
+- Networking fundamentals (OSI/TCP-IP models, IP addressing, DNS, ports, TCP/UDP, HTTP/HTTPS, DHCP, NAT, troubleshooting) — `networking-notes.md`
+- OverTheWire Bandit, Levels 0–15 (hands-on practice applying the Linux commands above) — `bandit-notes.md`
 
 Not yet covered (placeholders — will be filled in as I get there):
 - Python & Bash scripting for automation *(Week 2)*
@@ -30,8 +30,8 @@ Not yet covered (placeholders — will be filled in as I get there):
 
 | Week | Focus | Status |
 |---|---|---|
-| 1 | Linux & Networking | 🟡 In progress |
-| 2 | Python, Bash & Git | ⚪ Not started |
+| 1 | Linux & Networking | ✅ Completed |
+| 2 | Python, Bash & Git | 🔜 Up next |
 | 3 | AWS Compute & Storage | ⚪ Not started |
 | 4 | AWS VPC, IAM & Databases | ⚪ Not started |
 | 5 | AWS Serverless & Automation | ⚪ Not started |
@@ -46,8 +46,8 @@ cloud-engineering-journey/
 ├── README.md
 ├── week-01-linux-networking/
 │   ├── linux-commands.md
-│   ├── networking-notes.md      (to be added)
-│   └── bandit-notes.md          (to be added)
+│   ├── networking-notes.md
+│   └── bandit-notes.md
 ├── week-02-python-bash-git/
 ├── week-03-aws-compute-storage/
 ├── week-04-aws-vpc-iam-databases/
