@@ -2,19 +2,6 @@
 
 Personal quick-reference built during Week 1 (Linux fundamentals + networking basics) of my Cloud Engineering / DevOps roadmap. Focused on Ubuntu, and on commands I'll actually reach for in cloud/DevOps work — not an exhaustive Linux manual.
 
-## Corrections & Additions Log
-
-**Corrected from my original notes:**
-- `rm -rf` — my notes said "use with caution" but didn't explain *why*. It deletes recursively, skips confirmation, and there's no trash/undo. Added a real warning + safer alternative below.
-- `kill -9 <PID>` — jumping straight to `-9` was listed with no warning. `-9` (SIGKILL) doesn't let the process clean up or save data. Correct order is `kill <PID>` first, `-9` only if it won't die.
-- `netstat -tuln` — `netstat` is deprecated and often not installed by default on modern Ubuntu. `ss -tuln` is the current standard; kept as the primary command.
-- `chmod 755` — original note gave the command but not what the numbers mean. Explained the octal permission model below so it's not memorized blindly.
-- `tail -f` — correct as written; clarified it's a *live* follow, distinct from a one-time `tail -n`.
-
-**Added (missing but genuinely useful for Cloud/DevOps work):**
-- Sections 2 (touch), 4 (diff), 6 (jobs/bg/fg/nohup), 10 (Users & Groups), 11 (Environment Variables & Shell), 13 (SSH & Remote File Transfer), 14 (Archives & Compression), 15 (System Info), 16 (Help & Documentation) — none of these existed in my original notes.
-- `find`, `ssh-keygen`, `tar`, `man`/`--help`, `sudo adduser`/`usermod`, `curl`/`wget`, `uname -a` — commonly needed for server work and troubleshooting.
-
 ---
 
 ## 1. Navigation & File Management
