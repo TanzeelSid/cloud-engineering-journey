@@ -2,12 +2,6 @@
 
 Bandit is a beginner Linux wargame: each level is a small puzzle, and solving it reveals the password for the *next* level. This note walks through Levels 0 → 15 in plain English, with the exact commands used and the resulting password for each step.
 
-> **Assumptions (labeled):**
-> 1. You gave me 15 passwords as a screenshot, not the actual commands you ran — so the commands below are the standard, well-known way to solve each level (I did not invent the puzzles; these are the documented Bandit challenges).
-> 2. I'm assuming your 15 passwords are in solving order top-to-bottom: password for bandit1 first, password for bandit15 last. If your actual order differs, tell me and I'll remap them.
-> 3. Some characters (`l` vs `I` vs `1`, `O` vs `0`) look identical in screenshots. **Double-check every password against your own image before typing it** — I transcribed carefully but a font mix-up is possible.
-> 4. All Bandit logins use: `ssh -p 2220 banditX@bandit.labs.overthewire.org` (replace X with the level number). Once inside, you can also just `ssh banditX+1@localhost` from the current shell to hop to the next level directly.
-
 ---
 
 ## Level 0 — Getting In
@@ -211,10 +205,8 @@ cat <final-file>
 
 ```bash
 ls
-ssh -i sshkey.private -p 2220 bandit14@localhost
+ssh bandit14@bandit.labs.overthewire.org -p 2220 -i private.key
 ```
-
-*(Note: if you're already SSH'd into the Bandit server, drop `-p 2220` and just use `bandit.labs.overthewire.org` → `localhost`, since you're connecting to the same machine.)*
 
 ---
 
