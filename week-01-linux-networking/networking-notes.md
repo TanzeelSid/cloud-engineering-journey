@@ -2,8 +2,6 @@
 
 Beginner-friendly networking notes, written in easy English with real-world examples. Covers the core networking concepts you need before moving into cloud networking (VPCs, security groups, etc.) later in the roadmap.
 
-> **Assumption (labeled):** you didn't share your exact Day 3–4 resource/curriculum, so this covers the standard core networking topics that come before cloud networking — OSI/TCP-IP models, IP addressing, DNS, ports, TCP/UDP, HTTP/HTTPS, DHCP, NAT, and troubleshooting. If your course covered something specific that's missing, tell me and I'll add it.
-
 ---
 
 ## 1. Why Networking Matters for Cloud Engineering
