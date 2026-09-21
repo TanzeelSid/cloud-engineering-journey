@@ -1,0 +1,5 @@
+# one URL per line
+https://www.google.com
+https://github.com
+https://httpbin.org/status/500
+https://this-domain-does-not-exist-12345.com

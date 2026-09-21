@@ -1,0 +1,11 @@
+Log summary: sample.log
+Total lines: 12
+  CRITICAL 1
+  ERROR    4
+  WARN     2
+  INFO     5
+Error rate: 41.7% (5 error lines)
+Top 3 errors:
+  3x  Database connection failed
+  1x  Timeout calling payment API
+  1x  Out of memory

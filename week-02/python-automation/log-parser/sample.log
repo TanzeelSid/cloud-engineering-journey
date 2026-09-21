@@ -1,0 +1,12 @@
+2026-09-20 08:00:01 INFO Service started
+2026-09-20 08:00:05 INFO Health check passed
+2026-09-20 08:01:12 WARN Disk usage at 82%
+2026-09-20 08:02:30 ERROR Database connection failed
+2026-09-20 08:02:45 ERROR Database connection failed
+2026-09-20 08:03:10 INFO Retrying connection
+2026-09-20 08:03:55 ERROR Timeout calling payment API
+2026-09-20 08:04:20 WARN Slow response: 2300ms
+2026-09-20 08:05:00 INFO Request processed
+2026-09-20 08:05:41 CRITICAL Out of memory
+2026-09-20 08:06:02 ERROR Database connection failed
+2026-09-20 08:06:30 INFO Service recovered
