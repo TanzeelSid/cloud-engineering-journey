@@ -26,6 +26,3 @@ This week covers Python fundamentals, cloud-relevant Python (APIs, JSON, error h
 - Bash: script structure, variables, conditions, loops, cron scheduling
 - Git: `init`, `clone`, `add`, `commit`, `push`, `pull`, branching, merging, conflict resolution, pull requests
 
-## Good first issue
-
-PR link: `<paste your PR link here after Block 6>`
