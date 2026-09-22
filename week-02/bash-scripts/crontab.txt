@@ -1,0 +1,1 @@
+0 2 * * * /home/tanzeelsid/Desktop/myfolder/cloud-engineering-journey/week-02/bash-scripts/backup.sh /home/tanzeelsid/backup-test/data /home/tanzeelsid/backup-test/backups 7 >> /home/tanzeelsid/backup-test/backup.log 2>&1
